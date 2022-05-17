@@ -1,0 +1,23 @@
+.cuadrado {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.cuadradito{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+.cuadrado-responsive{
+    width: 80vw;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.cuadradito-responsive{
+    width: 50%;
+    height: 60%;
+    background-color: yellow;
+}

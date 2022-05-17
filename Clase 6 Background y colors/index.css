@@ -1,0 +1,18 @@
+.imagen-de-fondo{
+    /* background-color: red;  */
+    background-image: url("https://www.cinemascomics.com/wp-content/uploads/2021/12/rick-y-morty-navidad-video-rap.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 500px;
+}
+
+.cuadrado {
+    /* background-color: red; */
+    /* background-color: #4C4989; */
+    /* background-color: rgb(29, 147, 70); */
+    background-color: rgba(29, 147, 7, 0.8);
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}

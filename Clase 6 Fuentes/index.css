@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+@font-face {
+    font-family: 'cosmeFulanito';
+    src: url('fonts/Koulen-Regular.ttf');
+}
+
+
+.titulo {
+    font-family: 'cosmeFulanito';
+}
+
+.titulo2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 25px;
+}
