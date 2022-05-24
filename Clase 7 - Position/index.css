@@ -1,0 +1,29 @@
+.cuadrado{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+
+.cuadrado1{
+    background-color: red;
+}
+.cuadrado2{
+    overflow: auto;
+    background-color: blue;
+    /* position: absolute; */
+    position: relative;
+    opacity: 0.3;
+    /* position: relative; */
+    /* top: 50%;
+    left: 60%; */
+    /* bottom: 30px;
+    right: 70px; */
+}
+.cuadrado3{
+    background-color: blueviolet;
+}
+
+body {
+    height: 500vh;
+}

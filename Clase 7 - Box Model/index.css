@@ -1,0 +1,59 @@
+.box-model {
+
+    /* BORDER 1 
+    border-width: 50px;
+    border-color: yellow;
+    border-style: dashed; */
+
+    /* BORDER 2
+    border-width: 20px 60px 50px 10px;
+    border-color: blue;
+    border-style: solid; */
+
+    /* BORDER 3
+    border-bottom: 50px red solid;
+    border-top: 20px yellow solid;
+    border-left: 10px green dashed;
+    border-right: 60px blue solid; */
+
+    /* BORDER 4 */
+    border: 50px yellow solid;
+
+    /* PADDING 1
+    padding: 30px; */
+
+    /* PADDING 2
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px; */
+    /* PADDING 3*/
+    padding: 50px 10px 10px 30px;
+
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.cuadrado1{
+    background-color: red;
+    margin-left: 100px;
+}
+
+.cuadrado2{
+    background-color: blue;
+    margin-left: 200px;
+}
+
+
+.cuadrado3{
+    border: 20px black solid;
+    display: block;
+    margin-top: 40px;
+}
+
+h1 {
+    inline-size: 500px;
+}
