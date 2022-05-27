@@ -1,0 +1,22 @@
+.azul {
+    color: blue;
+    background-color: aqua;
+}
+
+#verde {
+    color: green;
+}
+
+h1 {
+    color: red;
+    font-size: 3em;
+}
+
+
+.container {
+    color: blue;
+}
+
+.cambiar-color {
+    color: blueviolet;
+}
