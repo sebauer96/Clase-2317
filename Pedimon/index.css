@@ -10,6 +10,10 @@
     font-family: 'LatoRegular';
     src: url("/fonts/Lato-Regular.ttf");
 }
+@font-face {
+    font-family: 'LatoThin';
+    src: url("/fonts/Lato-Thin.ttf");
+}
 
 body {
     font-family: 'LatoRegular';
@@ -81,4 +85,103 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+
+.seccion-info {
+    background-color: #0c4ea2;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-info h2 {
+    margin: 0px;
+    padding: 0;
+    color: #f7de82;
+    font-family: 'LatoThin';
+    font-size: 3.2em;
+    text-transform: uppercase;
+}
+
+.seccion-info h4 {
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    color: white;
+    font-family: 'LatoThin';
+    font-size: 1.3em;
+}
+
+.container-info{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.container-img-info {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-img-info img {
+    width: 30%;
+}
+
+.container-img-info p {
+    color: white;
+    font-size: 1.4em;
+    width: 70%;
+    text-align: center;
+    font-family: 'LatoLight';
+}
+
+@media (max-width:1200px) and (min-width:800px) {
+    .container-info {
+        width: 100%;
+    }
+    .container-img-info img {
+        width: 40%;
+    }
+}
+
+@media (max-width:800px) {
+
+    .seccion-info h2 {
+        font-size: 2.4em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .seccion-info h4 {
+        font-size: 1.2em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-info {
+        flex-direction: column;
+    }
+
+    .container-img-info {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .container-img-info img {
+        width: 20%;
+    }
+    .container-img-info p{
+        font-size: 1.2em;
+        width: 40%;
+    }
 }

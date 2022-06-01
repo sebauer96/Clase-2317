@@ -1,0 +1,15 @@
+.cuadrado {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.cuadrado2 {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid purple;
+    box-sizing: border-box;
+}
