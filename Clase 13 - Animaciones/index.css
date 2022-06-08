@@ -1,0 +1,62 @@
+@keyframes cambiar-color {
+    0% {
+        background-color: red;
+        transform: scale(0);
+    }
+
+    25% {
+        background-color: green;
+    }
+
+    76% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: blue;
+        transform: scale(2);
+    }
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.cuadrado {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    animation-name: cambiar-color;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0,1.5,.55,-0.39);
+}
+
+
+.spinner {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 20px solid red;
+    animation-name: girar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 20px;
+    animation-timing-function: linear;
+}
+
+.giro {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}

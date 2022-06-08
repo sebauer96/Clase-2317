@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Lato';
-    src: url("/fonts/Lato-Black.ttf");
+    src: url("./fonts/Lato-Black.ttf");
 }
 @font-face {
     font-family: 'LatoLight';
-    src: url("/fonts/Lato-Light.ttf");
+    src: url("./fonts/Lato-Light.ttf");
 }
 @font-face {
     font-family: 'LatoRegular';
-    src: url("/fonts/Lato-Regular.ttf");
+    src: url("./fonts/Lato-Regular.ttf");
 }
 @font-face {
     font-family: 'LatoThin';
-    src: url("/fonts/Lato-Thin.ttf");
+    src: url("./fonts/Lato-Thin.ttf");
 }
 
 body {
@@ -78,6 +78,7 @@ header {
     font-size: 1.2em;
     text-transform: uppercase;
     font-family: 'Lato';
+    min-width: 200px;
 }
 
 .flexbox-space-around {
@@ -143,6 +144,18 @@ header {
     text-align: center;
     font-family: 'LatoLight';
 }
+
+.btn-atrapar:hover{
+    background-color: white;
+    color: #0c4ea2;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
 @media (max-width:1200px) and (min-width:800px) {
     .container-info {

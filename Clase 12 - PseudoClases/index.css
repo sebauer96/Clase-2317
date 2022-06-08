@@ -1,0 +1,37 @@
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+
+.cuadrado:hover {
+    background-color: red;
+}
+
+input {
+    margin-top: 100px;
+}
+
+input:focus {
+    background-color: blueviolet;
+}
+
+input:hover {
+    width: 500px;
+}
+
+
+.first-child:first-child {
+    color: blue;
+}
+
+/* p:first-of-type {
+    color: red;
+} */
+
+
+.parrafo:nth-child(3n){
+    color: red;
+    background-color: blue;
+}
