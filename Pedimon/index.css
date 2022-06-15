@@ -15,6 +15,10 @@
     src: url("./fonts/Lato-Thin.ttf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'LatoRegular';
     margin: 0;
